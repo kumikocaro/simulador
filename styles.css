@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #002f6c; /* Azul Marino */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,17 +9,19 @@ body {
 }
 
 .contenedor {
-    background-color: #fff;
+    background-color: #00509e; /* Azul Medio */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    border: 2px solid #0073e6; /* Azul Claro */
 }
 
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #fff; /* Blanco para el texto */
 }
 
 .grupo-formulario {
@@ -30,21 +32,22 @@ label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    color: #ff7300; /* Naranja Claro */
 }
 
 select, input {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #0073e6; /* Azul Claro */
     border-radius: 5px;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ff4500; /* Naranja Oscuro */
+    color: #fff; /* Blanco */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -52,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ff7300; /* Naranja Claro */
 }
 
 .resultado {
@@ -61,4 +64,5 @@ button:hover {
 
 h2 {
     font-size: 20px;
+    color: #fff; /* Blanco para el texto */
 }
